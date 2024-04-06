@@ -1,0 +1,27 @@
+#pink{
+    background-color: pink;
+}
+#black{
+    background-color: #1c1919;
+}
+.up{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.down{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
