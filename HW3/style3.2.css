@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-size: large;
+    margin: 0 200px 0 200px;
+    text-align: center;
+}
+.up{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.center{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.down{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#red{
+    background-color: #d2144b;
+}
+#blue{
+    background-color: #33b7ff;
+}
+#green{
+    background-color: #8dff8b;
+}
