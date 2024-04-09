@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework4.2</title>
+    <style>
+        .main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .top{
+            width: 35vw;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid darkgrey;
+        }
+        .lower{
+            width: 25vw;
+            height: 15vh;
+        }
+        input{
+            width: 30vw;
+            height: 8vh;
+            text-overflow: ellipsis;
+            margin-top: 15px;
+            font-size: 19px;
+            border-radius: 5%;
+            border: 2px solid darkgrey;
+        }
+        button{
+            width: 30vw;
+            height: 8vh;
+            margin-top: 25px;
+            border-radius: 5%;
+            color: white;
+            font-size: 25px;
+            border: 2px solid darkgrey;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            color: gray;
+            font-size: 25px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        p{
+            color: #3a3a9d;
+            font-size: 20px;
+        }
+        .lower{
+            margin-top: 15px;
+            width: 35vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid darkgrey;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form class="main">
+        <div class="top">
+            <img style="width: 20vw" src="Inst.png">
+            <input type="text" name="login" placeholder="Номер телефону, ім'я користувача або email" required>
+            <input type="password" name="password" placeholder="Пароль">
+            <button style="background-color: #33b7ff">Увійти</button>
+            <span>АБО</span>
+            <span>
+                <img src="icons8-facebook-48.png">
+                <a href="https://uk-ua.facebook.com/" style="color: #3a3a9d">Увійти через Facebook</a>
+            </span>
+            <p>Забули пароль?</p>
+        </div>
+        <div class="lower">
+            <p style="color: #1e1c1c">Не маєте облікового запису?</p>
+            <a href="https://www.instagram.com/accounts/emailsignup/" style="color: #3a3a9d">Зареєструйтеся</a>
+        </div>
+    </form>
+</body>
+</html>
