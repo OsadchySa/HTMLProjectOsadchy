@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework6.2</title>
+    <style>
+        .top{
+            height: 33.3vh;
+            width: 97.5vw;
+            background-color: darkgrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            color: #4f4e4e;
+            font-size: 40px;
+        }
+        .B{
+            height: 66.7vh;
+            width: 74vw;
+            background-color: darkgrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 10px 10px 0;
+        }
+        .C{
+            height: 66.7vh;
+            width: 26vw;
+            background-color: darkgrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0 0 0;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: row;
+        }
+        @media screen and (max-width: 600px){
+            .bottom{
+            flex-direction: column;
+            }
+            .B{
+                height: 60vh;
+                width: 100vw;
+            }
+            .C{
+                height: 20vh;
+                width: 100vw;
+                margin-top: 0;
+            }
+            .top{
+                height: 20vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top"><span>A</span></div>
+    <div class="bottom">
+        <div class="B"><span>B</span></div>
+        <div class="C"><span>C</span></div>
+    </div>
+</body>
+</html>
