@@ -1,0 +1,21 @@
+@media screen and (max-width: 599px){
+    .article{
+        display: grid;
+        grid-template-columns: 10fr;
+        grid-template-rows: 2.5fr 2.5fr 2.5fr 2.5fr;
+    }
+    .banner{
+        height: 10vh;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+    }
+    .link1-4{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        bottom: -8vh;
+    }
+}

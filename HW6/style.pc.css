@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+}
+.link{
+    padding: 2px;
+    display: flex;
+    justify-content: start;
+}
+.banner{
+    background-color: cornflowerblue;
+    height: 35vh;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.article{
+    height: 35vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+span{
+    color: white;
+    font-size: 3vh;
+}
+div{
+    margin: 5px;
+}
+.link1-4{
+    width: 65px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art1-4 {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.footer{
+    margin-top: 16px;
+    height: 1vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
